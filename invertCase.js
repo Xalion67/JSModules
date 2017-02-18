@@ -1,4 +1,4 @@
-import * as strings from './strings';
+ import * as strings from './strings';
 
 
  export const invertCase = str => {
@@ -7,5 +7,6 @@ import * as strings from './strings';
      str[i] === strings.toUpperCase(str[i]) ? resultStr += strings.toLowerCase(str[i]) : resultStr += strings.toUpperCase(str[i]);
    }
    console.log(resultStr);
+
    return resultStr;
  };
