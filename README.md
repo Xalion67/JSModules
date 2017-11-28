@@ -1,2 +1,2 @@
-# jsModules
-Здесь собраны все функции, обрывки кода и прочая нечисть, которые я пишу в виде небольших практических работ.
+# jsModules(nodejs)
+Here are the files with the code I wrote when I studied the basic features of nodejs
