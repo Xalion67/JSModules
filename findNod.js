@@ -1,3 +1,10 @@
 //Нахождение НОД числа по алгоритму Евклида
-const gcd = (a, b) => b === 0 ? a : gcd(b, a % b);
-  export default gcd;
+const gcd = (a, b) => {
+  if (b === 0) {
+    return a;
+  }
+  return gcd(b, a % b);
+}
+
+
+export default gcd;
